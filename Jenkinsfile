@@ -18,10 +18,10 @@ pipeline {
             echo" run always "
         }
         success{
-            echo " only on success"
+            echo " only on success "
         }
         failure{
-            echo " only on failure"
+            echo " only on failure "
         }
     }
 }
