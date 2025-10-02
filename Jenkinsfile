@@ -13,4 +13,15 @@ pipeline {
         }
         
     }
+    post{
+        always{
+            echo" run always"
+        }
+        success{
+            echo " only on success"
+        }
+        failure{
+            echo " only on failure"
+        }
+    }
 }
